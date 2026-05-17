@@ -70,7 +70,7 @@ export default function HomeScreen() {
             <View style={styles.topActions}>
               <TouchableOpacity
                 style={styles.iconPill}
-                onPress={() => router.push('/(pages)/activity')}
+                onPress={() => router.push('/(screens)/notifications')}
                 activeOpacity={0.8}
               >
                 <Text style={styles.iconPillText}>🔔</Text>
@@ -78,7 +78,7 @@ export default function HomeScreen() {
               </TouchableOpacity>
               <TouchableOpacity
                 style={styles.iconPill}
-                onPress={() => router.push('/(pages)/profile')}
+                onPress={() => router.push('/(screens)/profile')}
                 activeOpacity={0.8}
               >
                 <Text style={styles.iconPillText}>👤</Text>
@@ -130,7 +130,7 @@ export default function HomeScreen() {
 
           <TouchableOpacity
             style={[styles.miniCard, styles.miniCardAmber]}
-            onPress={() => router.push('/(pages)/activity')}
+            onPress={() => router.push('/(screens)/calender')}
             activeOpacity={0.85}
           >
             <View style={[styles.miniIconBox, { backgroundColor: '#FAEEDA' }]}>
